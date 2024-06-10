@@ -48,7 +48,7 @@ async function run() {
             res.send(result);
         })
 
-        //carts collection
+        //carts collections
 
         app.get ('/carts', async(req, res) =>{
             const email = req.query.email;
